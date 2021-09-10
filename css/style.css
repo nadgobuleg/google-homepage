@@ -1,3 +1,10 @@
+/* Header */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
 header ul {
     display: flex;
     flex-direction: row;
@@ -9,14 +16,12 @@ header ul {
 
 header ul li {
     margin-top: 12px;
-    font-family: Arial, sans-serif;
-    font-size: 13px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.links {
+.header-links {
     margin-right: 22px;
 }
 
@@ -24,12 +29,12 @@ li {
     list-style-type: none;
 }
 
-header ul li a {
+ul li a {
     text-decoration: none;
     color: black;
 }
 
-header ul li a:hover {
+ul li a:hover {
     text-decoration: underline;
 }
 
@@ -63,4 +68,32 @@ header ul li img {
     text-decoration: none;
     background-color: #2b7de9;
     box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    border-top: 1px solid rgb(218, 220, 224);
+    background-color: #f2f2f2;
+}
+
+footer div ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0 35px;
+}
+
+footer div ul li {
+    margin: 18px 0;
+    margin-right: 25px;
+}
+
+footer div ul li a {
+    color: #70757a;
 }
